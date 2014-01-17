@@ -63,7 +63,7 @@ a:hover, a:focus {
   padding-right: 7px;
 }
 @media all and (max-width: 925px), (max-device-width: 925px) {
-  .selfie {
+  .samovar {
     background-size: cover;
   }
 }
