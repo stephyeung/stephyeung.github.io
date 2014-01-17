@@ -1,0 +1,83 @@
+body { 
+  background-color: rgba(171, 225, 223, 0.25);
+  margin: 0;
+  font-family: 'Alegreya', georgia, serif;
+  font-size: 1.4em;
+  line-height: 1.45em;
+  color: #383838;
+  text-rendering: optimizieLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+.samovar {
+  position: relative;
+  background-image: url('/assets/images/samovar.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin: 0;
+  width: 100%;
+  height: 240px;
+  background-size: 100%;
+  box-shadow: 0px 1px 6px #888;
+  -moz-box-shadow: 0px 1px 6px #888;
+  -webkit-box-shadow: 0px 1px 6px #888;
+}
+.samovar:before {
+  background-color: rgba(171, 225, 223, 0.15);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+}
+.bio {
+  position: relative;
+  margin: 55px auto 0;
+  padding-bottom: 50px;
+  width: 650px;
+}
+p {
+  margin: 0 0 1em 0;
+  text-align: justify;
+}
+p:last-child {
+  margin: 0;
+}
+a, a:link, a:Active {
+  color: #ff005a;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  color: #068782;
+  text-decoration: none;
+  outline: 0;
+}
+.fa-twitter:before {
+  font-size: 18px;
+  display: inline-block;
+  padding-right: 4px;
+}
+.fa-envelope:before {
+  font-size: 14px;
+  display: inline-block;
+  padding-right: 7px;
+}
+@media all and (max-width: 925px), (max-device-width: 925px) {
+  .selfie {
+    background-size: cover;
+  }
+}
+@media all and (max-width: 720px) {
+  .bio {
+    width: 85%;
+  }
+}
+@media screen and (max-device-width: 480px) {
+  body {
+    font-size: 2em;
+    line-height: 1.6em;
+  }
+  .bio {
+    width: 85%;
+  }
+}
