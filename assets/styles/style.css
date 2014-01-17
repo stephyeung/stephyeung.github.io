@@ -52,6 +52,14 @@ a:hover, a:focus {
   text-decoration: none;
   outline: 0;
 }
+.post {
+  width: 650px;
+  margin: 60px auto;
+}
+.post-date {
+  font-size: 1.75em;
+  margin: 0 0 24px;
+}
 .fa-twitter:before {
   font-size: 18px;
   display: inline-block;
