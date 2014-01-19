@@ -30,6 +30,15 @@ body {
   left: 0;
   content: '';
 }
+.photo-credit {
+  color: rgba(33, 33, 33, 0.5);
+  font-size: .5em;
+  line-height: .5em;
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  text-transform: uppercase;
+}
 .bio {
   position: relative;
   margin: 55px auto 0;
