@@ -1,2 +1,2 @@
-yeungsteph.github.io
+stephyeung.github.io
 ====================
